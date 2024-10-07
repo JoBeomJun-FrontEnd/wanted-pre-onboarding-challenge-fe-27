@@ -28,7 +28,7 @@
 
 - git flow init: 초기화
 - git flow feature start 기능이름: 새로운 기능 추가 할때 브랜치 생성
-  - 어떤 이슈와 연결되는지 알기 쉽게 기능이름 앞에 이슈번호 붙이기 ex) feature/1-feature-makeframe
+  - 어떤 이슈와 연결되는지 알기 쉽게 기능이름 앞에 이슈번호 붙이기 ex) 1-feature-makeframe
 - git flow feature finish 기능이름: 기능 작업 완료 후 develop에 병합
 - git flow release start 버전: 릴리스를 준비할 때 사용하는 브랜치 생성
 - git flow release finish 기능이름: 릴리스 준비가 완료되면 main과 develop에 병합
