@@ -39,6 +39,9 @@
 
 ## 깃 합치기
 
+- git add .: flow 작업이 완료됬다면 
+- git commit -m '작업 내용'
+- git flow xxxx finish
 - git fetch origin: 원격 저장소에서 최신 변경 사항 가져오기
 - git rebase -i origin/develop: 팀원들과 작업이 충돌하지 않도록 최신 develop 브랜치 위에 자신의 작업을 위치시킨다
   - :wq 입력후 빠져나와 성공되면 완료
