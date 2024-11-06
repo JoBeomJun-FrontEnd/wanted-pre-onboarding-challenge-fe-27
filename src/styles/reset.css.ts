@@ -7,9 +7,20 @@ globalStyle(
     margin: 0,
     padding: 0,
     border: 0,
-    fontSize: '100%',
     font: 'inherit',
     verticalAlign: 'baseline',
+    textDecoration: 'none',
+    color: 'inherit',
+    backgroundColor: 'transparent',
+    fontSize: '100%',
+    '@media': {
+      [mediaQueries.tablet]: {
+        fontSize: '87.5%',
+      },
+      [mediaQueries.mobile]: {
+        fontSize: '75%',
+      },
+    },
   }
 );
 
